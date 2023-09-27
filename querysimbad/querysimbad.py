@@ -1,3 +1,10 @@
+"""
+Created: 2023-08-03
+Last Edit: 2023-09-28
+Author: Caleb Brand
+Contact: brand.c.research@gmail.com
+"""
+
 import os
 import time
 import numpy as np

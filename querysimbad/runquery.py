@@ -9,8 +9,8 @@ from querysimbad import querysimbad as qs
 
 ### query the same as above but for one star
 
-query = qs()
-query.plot_alt("hd_147584", '2023-08-06')
+# query = qs()
+# query.plot_alt("HIP 98624", '2023-09-29')
 
 
 
@@ -33,8 +33,8 @@ query.plot_alt("hd_147584", '2023-08-06')
 
 ### create a file of parameters from simbad for a list of stars
 
-# query = qs()
-# query.query_star_list("starlist.txt", batchsize=300)
+query = qs()
+query.query_star_list("starlist.txt", batchsize=100)
 
 
 
