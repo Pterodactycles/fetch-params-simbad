@@ -77,13 +77,7 @@ class querysimbad():
                 0,
                 0
             )
-            end_date = dt.datetime(
-                dayobject.year,
-                dayobject.month,
-                dayobject.day + 1,
-                0,
-                0
-            )
+            end_date = start_date + dt.timedelta(days=1)
         else:
             start_date = dt.datetime(current_year, 1, 1, 13, 0)
             end_date = dt.datetime(current_year, 12, 31, 13, 0)
